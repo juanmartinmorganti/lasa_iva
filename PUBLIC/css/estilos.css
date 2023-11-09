@@ -1,0 +1,37 @@
+table, th, td{
+    border: 1px, solid;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table{
+    border-spacing: 5px;
+    width: 100%;
+    font-family: Arial;
+
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+table tr:nth-child(even){
+    background-color: #effef7;
+}
+table tr:nth-child(odd) {
+    background-color: #dafeef;
+}
+
+caption{
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+tr :hover{
+    background-color: rgb(158, 187, 158);
+}
